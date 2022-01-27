@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+backend/node_modules
+# dependencies
+chatting/node_modules
+chatting/.pnp
+chatting/.pnp.js
+
+# testing
+chatting/coverage
+
+# production
+chatting/build
+
+# misc
+chatting/.DS_Store
+chatting/.env.local
+chatting/.env.development.local
+chatting/.env.test.local
+chatting/.env.production.local
+
+chatting/npm-debug.log*
+chatting/yarn-debug.log*
+chatting/yarn-error.log*
